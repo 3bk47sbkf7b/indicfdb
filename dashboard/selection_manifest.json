@@ -7,7 +7,7 @@
       "label": "Success · many pauses",
       "requested": 2,
       "selected": 2,
-      "available": 597
+      "available": 596
     },
     {
       "category": "pausehandling",
@@ -832,11 +832,11 @@
       "rank": 1
     },
     {
-      "id": "pausehandling/gptlive/success_many-2-english-425009_1",
+      "id": "pausehandling/gptlive/success_many-2-punjabi-2830996_0",
       "category": "pausehandling",
       "model": "gptlive",
-      "language": "english",
-      "sample": "425009_1",
+      "language": "punjabi",
+      "sample": "2830996_0",
       "slot": "success_many",
       "slot_label": "Success · many pauses",
       "rank": 2
@@ -1352,11 +1352,11 @@
       "rank": 1
     },
     {
-      "id": "turntaking/gptlive/success_low-2-english-1025724_0",
+      "id": "turntaking/gptlive/success_low-2-punjabi-2964405_0",
       "category": "turntaking",
       "model": "gptlive",
-      "language": "english",
-      "sample": "1025724_0",
+      "language": "punjabi",
+      "sample": "2964405_0",
       "slot": "success_low",
       "slot_label": "Success · lowest latency",
       "rank": 2
@@ -1852,11 +1852,11 @@
       "rank": 1
     },
     {
-      "id": "backchanneling/gemini38live/success_low-2-hindi-185424_2",
+      "id": "backchanneling/gemini38live/success_low-2-punjabi-2887563_0",
       "category": "backchanneling",
       "model": "gemini38live",
-      "language": "hindi",
-      "sample": "185424_2",
+      "language": "punjabi",
+      "sample": "2887563_0",
       "slot": "success_low",
       "slot_label": "Success · lowest JSD",
       "rank": 2
@@ -2172,11 +2172,11 @@
       "rank": 1
     },
     {
-      "id": "interruptions/gptlive/success_low-2-gujarati-128",
+      "id": "interruptions/gptlive/success_low-2-punjabi-50",
       "category": "interruptions",
       "model": "gptlive",
-      "language": "gujarati",
-      "sample": "128",
+      "language": "punjabi",
+      "sample": "50",
       "slot": "success_low",
       "slot_label": "Success · low rating",
       "rank": 2
