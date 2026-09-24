@@ -5,9 +5,8 @@ case data and uses the MP3 files under `audio/`. It does not need a web server
 or access to the original `benchmark/` and `outputs/` trees.
 
 Navigation follows category → model → case. Each case has aligned user input,
-human reference (where available), and agent output tracks. Use **Play all
-tracks** for a synchronized comparison, or use an individual audio control to
-listen to one track. Markers show reference events and detected agent events.
+human reference (where available), and agent output tracks. Use **Play all from start** to rewind and play every track together, or use an
+individual audio control to listen to one track. Markers show reference events and detected agent events.
 Interruption cases also show the source text, transcription, English
 translation, rating, and judge analysis when available. The expandable section
 shows the source metadata and scores.
