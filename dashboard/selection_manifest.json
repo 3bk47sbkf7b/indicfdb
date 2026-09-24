@@ -367,7 +367,7 @@
       "label": "Success · highest latency",
       "requested": 2,
       "selected": 2,
-      "available": 235
+      "available": 234
     },
     {
       "category": "turntaking",
@@ -376,7 +376,7 @@
       "label": "Success · lowest latency",
       "requested": 2,
       "selected": 2,
-      "available": 235
+      "available": 234
     },
     {
       "category": "turntaking",
@@ -1582,21 +1582,21 @@
       "rank": 2
     },
     {
-      "id": "turntaking/personaplex/success_low-1-english-1078326_0",
+      "id": "turntaking/personaplex/success_low-1-english-1120351_0",
       "category": "turntaking",
       "model": "personaplex",
       "language": "english",
-      "sample": "1078326_0",
+      "sample": "1120351_0",
       "slot": "success_low",
       "slot_label": "Success · lowest latency",
       "rank": 1
     },
     {
-      "id": "turntaking/personaplex/success_low-2-english-1120351_0",
+      "id": "turntaking/personaplex/success_low-2-english-1257784_0",
       "category": "turntaking",
       "model": "personaplex",
       "language": "english",
-      "sample": "1120351_0",
+      "sample": "1257784_0",
       "slot": "success_low",
       "slot_label": "Success · lowest latency",
       "rank": 2
