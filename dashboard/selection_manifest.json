@@ -1,0 +1,2525 @@
+{
+  "slots": [
+    {
+      "category": "pausehandling",
+      "model": "gptlive",
+      "slot": "success_many",
+      "label": "Success · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 597
+    },
+    {
+      "category": "pausehandling",
+      "model": "gptlive",
+      "slot": "success_one",
+      "label": "Success · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 1219
+    },
+    {
+      "category": "pausehandling",
+      "model": "gptlive",
+      "slot": "failure_many",
+      "label": "Failure · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 757
+    },
+    {
+      "category": "pausehandling",
+      "model": "gptlive",
+      "slot": "failure_one",
+      "label": "Failure · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 577
+    },
+    {
+      "category": "pausehandling",
+      "model": "xai",
+      "slot": "success_many",
+      "label": "Success · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 428
+    },
+    {
+      "category": "pausehandling",
+      "model": "xai",
+      "slot": "success_one",
+      "label": "Success · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 510
+    },
+    {
+      "category": "pausehandling",
+      "model": "xai",
+      "slot": "failure_many",
+      "label": "Failure · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 5
+    },
+    {
+      "category": "pausehandling",
+      "model": "xai",
+      "slot": "failure_one",
+      "label": "Failure · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 2
+    },
+    {
+      "category": "pausehandling",
+      "model": "gemini38live",
+      "slot": "success_many",
+      "label": "Success · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 1354
+    },
+    {
+      "category": "pausehandling",
+      "model": "gemini38live",
+      "slot": "success_one",
+      "label": "Success · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 1796
+    },
+    {
+      "category": "pausehandling",
+      "model": "gemini38live",
+      "slot": "failure_many",
+      "label": "Failure · many pauses",
+      "requested": 2,
+      "selected": 0,
+      "available": 0
+    },
+    {
+      "category": "pausehandling",
+      "model": "gemini38live",
+      "slot": "failure_one",
+      "label": "Failure · one pause",
+      "requested": 2,
+      "selected": 0,
+      "available": 0
+    },
+    {
+      "category": "pausehandling",
+      "model": "gemini31flash",
+      "slot": "success_many",
+      "label": "Success · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 1197
+    },
+    {
+      "category": "pausehandling",
+      "model": "gemini31flash",
+      "slot": "success_one",
+      "label": "Success · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 1635
+    },
+    {
+      "category": "pausehandling",
+      "model": "gemini31flash",
+      "slot": "failure_many",
+      "label": "Failure · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 3
+    },
+    {
+      "category": "pausehandling",
+      "model": "gemini31flash",
+      "slot": "failure_one",
+      "label": "Failure · one pause",
+      "requested": 2,
+      "selected": 0,
+      "available": 0
+    },
+    {
+      "category": "pausehandling",
+      "model": "personaplex",
+      "slot": "success_many",
+      "label": "Success · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 149
+    },
+    {
+      "category": "pausehandling",
+      "model": "personaplex",
+      "slot": "success_one",
+      "label": "Success · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 135
+    },
+    {
+      "category": "pausehandling",
+      "model": "personaplex",
+      "slot": "failure_many",
+      "label": "Failure · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 20
+    },
+    {
+      "category": "pausehandling",
+      "model": "personaplex",
+      "slot": "failure_one",
+      "label": "Failure · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 11
+    },
+    {
+      "category": "pausehandling",
+      "model": "moshi",
+      "slot": "success_many",
+      "label": "Success · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 87
+    },
+    {
+      "category": "pausehandling",
+      "model": "moshi",
+      "slot": "success_one",
+      "label": "Success · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 94
+    },
+    {
+      "category": "pausehandling",
+      "model": "moshi",
+      "slot": "failure_many",
+      "label": "Failure · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 82
+    },
+    {
+      "category": "pausehandling",
+      "model": "moshi",
+      "slot": "failure_one",
+      "label": "Failure · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 52
+    },
+    {
+      "category": "pausehandling",
+      "model": "hum1",
+      "slot": "success_many",
+      "label": "Success · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 77
+    },
+    {
+      "category": "pausehandling",
+      "model": "hum1",
+      "slot": "success_one",
+      "label": "Success · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 150
+    },
+    {
+      "category": "pausehandling",
+      "model": "hum1",
+      "slot": "failure_many",
+      "label": "Failure · many pauses",
+      "requested": 2,
+      "selected": 2,
+      "available": 41
+    },
+    {
+      "category": "pausehandling",
+      "model": "hum1",
+      "slot": "failure_one",
+      "label": "Failure · one pause",
+      "requested": 2,
+      "selected": 2,
+      "available": 47
+    },
+    {
+      "category": "turntaking",
+      "model": "gptlive",
+      "slot": "success_high",
+      "label": "Success · highest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 2284
+    },
+    {
+      "category": "turntaking",
+      "model": "gptlive",
+      "slot": "success_low",
+      "label": "Success · lowest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 2284
+    },
+    {
+      "category": "turntaking",
+      "model": "gptlive",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 66
+    },
+    {
+      "category": "turntaking",
+      "model": "xai",
+      "slot": "success_high",
+      "label": "Success · highest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 632
+    },
+    {
+      "category": "turntaking",
+      "model": "xai",
+      "slot": "success_low",
+      "label": "Success · lowest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 632
+    },
+    {
+      "category": "turntaking",
+      "model": "xai",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 73
+    },
+    {
+      "category": "turntaking",
+      "model": "gemini38live",
+      "slot": "success_high",
+      "label": "Success · highest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 2346
+    },
+    {
+      "category": "turntaking",
+      "model": "gemini38live",
+      "slot": "success_low",
+      "label": "Success · lowest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 2346
+    },
+    {
+      "category": "turntaking",
+      "model": "gemini38live",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 4
+    },
+    {
+      "category": "turntaking",
+      "model": "gemini31flash",
+      "slot": "success_high",
+      "label": "Success · highest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 2097
+    },
+    {
+      "category": "turntaking",
+      "model": "gemini31flash",
+      "slot": "success_low",
+      "label": "Success · lowest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 2097
+    },
+    {
+      "category": "turntaking",
+      "model": "gemini31flash",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 18
+    },
+    {
+      "category": "turntaking",
+      "model": "personaplex",
+      "slot": "success_high",
+      "label": "Success · highest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 235
+    },
+    {
+      "category": "turntaking",
+      "model": "personaplex",
+      "slot": "success_low",
+      "label": "Success · lowest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 235
+    },
+    {
+      "category": "turntaking",
+      "model": "personaplex",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 0,
+      "available": 0
+    },
+    {
+      "category": "turntaking",
+      "model": "moshi",
+      "slot": "success_high",
+      "label": "Success · highest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 167
+    },
+    {
+      "category": "turntaking",
+      "model": "moshi",
+      "slot": "success_low",
+      "label": "Success · lowest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 167
+    },
+    {
+      "category": "turntaking",
+      "model": "moshi",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 68
+    },
+    {
+      "category": "turntaking",
+      "model": "hum1",
+      "slot": "success_high",
+      "label": "Success · highest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 210
+    },
+    {
+      "category": "turntaking",
+      "model": "hum1",
+      "slot": "success_low",
+      "label": "Success · lowest latency",
+      "requested": 2,
+      "selected": 2,
+      "available": 210
+    },
+    {
+      "category": "turntaking",
+      "model": "hum1",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 25
+    },
+    {
+      "category": "backchanneling",
+      "model": "gptlive",
+      "slot": "success_low",
+      "label": "Success · lowest JSD",
+      "requested": 2,
+      "selected": 2,
+      "available": 1117
+    },
+    {
+      "category": "backchanneling",
+      "model": "gptlive",
+      "slot": "success_high",
+      "label": "Success · highest JSD below 1",
+      "requested": 2,
+      "selected": 2,
+      "available": 1117
+    },
+    {
+      "category": "backchanneling",
+      "model": "gptlive",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 2635
+    },
+    {
+      "category": "backchanneling",
+      "model": "xai",
+      "slot": "success_low",
+      "label": "Success · lowest JSD",
+      "requested": 2,
+      "selected": 2,
+      "available": 61
+    },
+    {
+      "category": "backchanneling",
+      "model": "xai",
+      "slot": "success_high",
+      "label": "Success · highest JSD below 1",
+      "requested": 2,
+      "selected": 2,
+      "available": 61
+    },
+    {
+      "category": "backchanneling",
+      "model": "xai",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 18
+    },
+    {
+      "category": "backchanneling",
+      "model": "gemini38live",
+      "slot": "success_low",
+      "label": "Success · lowest JSD",
+      "requested": 2,
+      "selected": 2,
+      "available": 1003
+    },
+    {
+      "category": "backchanneling",
+      "model": "gemini38live",
+      "slot": "success_high",
+      "label": "Success · highest JSD below 1",
+      "requested": 2,
+      "selected": 2,
+      "available": 1003
+    },
+    {
+      "category": "backchanneling",
+      "model": "gemini38live",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 13
+    },
+    {
+      "category": "backchanneling",
+      "model": "gemini31flash",
+      "slot": "success_low",
+      "label": "Success · lowest JSD",
+      "requested": 2,
+      "selected": 2,
+      "available": 222
+    },
+    {
+      "category": "backchanneling",
+      "model": "gemini31flash",
+      "slot": "success_high",
+      "label": "Success · highest JSD below 1",
+      "requested": 2,
+      "selected": 2,
+      "available": 222
+    },
+    {
+      "category": "backchanneling",
+      "model": "gemini31flash",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 12
+    },
+    {
+      "category": "backchanneling",
+      "model": "personaplex",
+      "slot": "success_low",
+      "label": "Success · lowest JSD",
+      "requested": 2,
+      "selected": 2,
+      "available": 192
+    },
+    {
+      "category": "backchanneling",
+      "model": "personaplex",
+      "slot": "success_high",
+      "label": "Success · highest JSD below 1",
+      "requested": 2,
+      "selected": 2,
+      "available": 192
+    },
+    {
+      "category": "backchanneling",
+      "model": "personaplex",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 142
+    },
+    {
+      "category": "backchanneling",
+      "model": "moshi",
+      "slot": "success_low",
+      "label": "Success · lowest JSD",
+      "requested": 2,
+      "selected": 2,
+      "available": 12
+    },
+    {
+      "category": "backchanneling",
+      "model": "moshi",
+      "slot": "success_high",
+      "label": "Success · highest JSD below 1",
+      "requested": 2,
+      "selected": 2,
+      "available": 12
+    },
+    {
+      "category": "backchanneling",
+      "model": "moshi",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 373
+    },
+    {
+      "category": "backchanneling",
+      "model": "hum1",
+      "slot": "success_low",
+      "label": "Success · lowest JSD",
+      "requested": 2,
+      "selected": 2,
+      "available": 156
+    },
+    {
+      "category": "backchanneling",
+      "model": "hum1",
+      "slot": "success_high",
+      "label": "Success · highest JSD below 1",
+      "requested": 2,
+      "selected": 2,
+      "available": 156
+    },
+    {
+      "category": "backchanneling",
+      "model": "hum1",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 208
+    },
+    {
+      "category": "interruptions",
+      "model": "gptlive",
+      "slot": "success_high",
+      "label": "Success · high rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 2999
+    },
+    {
+      "category": "interruptions",
+      "model": "gptlive",
+      "slot": "success_low",
+      "label": "Success · low rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 2999
+    },
+    {
+      "category": "interruptions",
+      "model": "gptlive",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 1,
+      "available": 1
+    },
+    {
+      "category": "interruptions",
+      "model": "xai",
+      "slot": "success_high",
+      "label": "Success · high rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 898
+    },
+    {
+      "category": "interruptions",
+      "model": "xai",
+      "slot": "success_low",
+      "label": "Success · low rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 898
+    },
+    {
+      "category": "interruptions",
+      "model": "xai",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 2
+    },
+    {
+      "category": "interruptions",
+      "model": "gemini38live",
+      "slot": "success_high",
+      "label": "Success · high rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 2999
+    },
+    {
+      "category": "interruptions",
+      "model": "gemini38live",
+      "slot": "success_low",
+      "label": "Success · low rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 2999
+    },
+    {
+      "category": "interruptions",
+      "model": "gemini38live",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 1,
+      "available": 1
+    },
+    {
+      "category": "interruptions",
+      "model": "gemini31flash",
+      "slot": "success_high",
+      "label": "Success · high rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 2698
+    },
+    {
+      "category": "interruptions",
+      "model": "gemini31flash",
+      "slot": "success_low",
+      "label": "Success · low rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 2698
+    },
+    {
+      "category": "interruptions",
+      "model": "gemini31flash",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 2
+    },
+    {
+      "category": "interruptions",
+      "model": "personaplex",
+      "slot": "success_high",
+      "label": "Success · high rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 300
+    },
+    {
+      "category": "interruptions",
+      "model": "personaplex",
+      "slot": "success_low",
+      "label": "Success · low rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 300
+    },
+    {
+      "category": "interruptions",
+      "model": "personaplex",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 0,
+      "available": 0
+    },
+    {
+      "category": "interruptions",
+      "model": "moshi",
+      "slot": "success_high",
+      "label": "Success · high rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 297
+    },
+    {
+      "category": "interruptions",
+      "model": "moshi",
+      "slot": "success_low",
+      "label": "Success · low rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 297
+    },
+    {
+      "category": "interruptions",
+      "model": "moshi",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 3
+    },
+    {
+      "category": "interruptions",
+      "model": "hum1",
+      "slot": "success_high",
+      "label": "Success · high rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 287
+    },
+    {
+      "category": "interruptions",
+      "model": "hum1",
+      "slot": "success_low",
+      "label": "Success · low rating",
+      "requested": 2,
+      "selected": 2,
+      "available": 287
+    },
+    {
+      "category": "interruptions",
+      "model": "hum1",
+      "slot": "failure",
+      "label": "Failure",
+      "requested": 2,
+      "selected": 2,
+      "available": 13
+    }
+  ],
+  "records": [
+    {
+      "id": "pausehandling/gptlive/success_many-1-kannada-3091398_0",
+      "category": "pausehandling",
+      "model": "gptlive",
+      "language": "kannada",
+      "sample": "3091398_0",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/gptlive/success_many-2-english-425009_1",
+      "category": "pausehandling",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "425009_1",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/gptlive/success_one-1-bengali-1009647_2",
+      "category": "pausehandling",
+      "model": "gptlive",
+      "language": "bengali",
+      "sample": "1009647_2",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/gptlive/success_one-2-english-1061092_1",
+      "category": "pausehandling",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "1061092_1",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/gptlive/failure_many-1-gujarati-1124102_4",
+      "category": "pausehandling",
+      "model": "gptlive",
+      "language": "gujarati",
+      "sample": "1124102_4",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/gptlive/failure_many-2-marathi-71546_2",
+      "category": "pausehandling",
+      "model": "gptlive",
+      "language": "marathi",
+      "sample": "71546_2",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/gptlive/failure_one-1-bengali-1012305_0",
+      "category": "pausehandling",
+      "model": "gptlive",
+      "language": "bengali",
+      "sample": "1012305_0",
+      "slot": "failure_one",
+      "slot_label": "Failure · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/gptlive/failure_one-2-english-1000945_0",
+      "category": "pausehandling",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "1000945_0",
+      "slot": "failure_one",
+      "slot_label": "Failure · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/xai/success_many-1-english-497299_0",
+      "category": "pausehandling",
+      "model": "xai",
+      "language": "english",
+      "sample": "497299_0",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/xai/success_many-2-bengali-2221929_0",
+      "category": "pausehandling",
+      "model": "xai",
+      "language": "bengali",
+      "sample": "2221929_0",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/xai/success_one-1-bengali-1009647_2",
+      "category": "pausehandling",
+      "model": "xai",
+      "language": "bengali",
+      "sample": "1009647_2",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/xai/success_one-2-english-1000945_0",
+      "category": "pausehandling",
+      "model": "xai",
+      "language": "english",
+      "sample": "1000945_0",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/xai/failure_many-1-english-1543268_2",
+      "category": "pausehandling",
+      "model": "xai",
+      "language": "english",
+      "sample": "1543268_2",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/xai/failure_many-2-bengali-1227053_0",
+      "category": "pausehandling",
+      "model": "xai",
+      "language": "bengali",
+      "sample": "1227053_0",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/xai/failure_one-1-hindi-1796601_1",
+      "category": "pausehandling",
+      "model": "xai",
+      "language": "hindi",
+      "sample": "1796601_1",
+      "slot": "failure_one",
+      "slot_label": "Failure · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/xai/failure_one-2-hindi-196429_0",
+      "category": "pausehandling",
+      "model": "xai",
+      "language": "hindi",
+      "sample": "196429_0",
+      "slot": "failure_one",
+      "slot_label": "Failure · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/gemini38live/success_many-1-gujarati-1124102_4",
+      "category": "pausehandling",
+      "model": "gemini38live",
+      "language": "gujarati",
+      "sample": "1124102_4",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/gemini38live/success_many-2-marathi-71546_2",
+      "category": "pausehandling",
+      "model": "gemini38live",
+      "language": "marathi",
+      "sample": "71546_2",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/gemini38live/success_one-1-bengali-1009647_2",
+      "category": "pausehandling",
+      "model": "gemini38live",
+      "language": "bengali",
+      "sample": "1009647_2",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/gemini38live/success_one-2-english-1000945_0",
+      "category": "pausehandling",
+      "model": "gemini38live",
+      "language": "english",
+      "sample": "1000945_0",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/gemini31flash/success_many-1-gujarati-1124102_4",
+      "category": "pausehandling",
+      "model": "gemini31flash",
+      "language": "gujarati",
+      "sample": "1124102_4",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/gemini31flash/success_many-2-marathi-71546_2",
+      "category": "pausehandling",
+      "model": "gemini31flash",
+      "language": "marathi",
+      "sample": "71546_2",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/gemini31flash/success_one-1-bengali-1009647_2",
+      "category": "pausehandling",
+      "model": "gemini31flash",
+      "language": "bengali",
+      "sample": "1009647_2",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/gemini31flash/success_one-2-english-1000945_0",
+      "category": "pausehandling",
+      "model": "gemini31flash",
+      "language": "english",
+      "sample": "1000945_0",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/gemini31flash/failure_many-1-gujarati-1786104_0",
+      "category": "pausehandling",
+      "model": "gemini31flash",
+      "language": "gujarati",
+      "sample": "1786104_0",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/gemini31flash/failure_many-2-bengali-1227053_0",
+      "category": "pausehandling",
+      "model": "gemini31flash",
+      "language": "bengali",
+      "sample": "1227053_0",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/personaplex/success_many-1-english-497299_0",
+      "category": "pausehandling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "497299_0",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/personaplex/success_many-2-english-425009_1",
+      "category": "pausehandling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "425009_1",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/personaplex/success_one-1-english-1000945_0",
+      "category": "pausehandling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1000945_0",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/personaplex/success_one-2-english-1015297_3",
+      "category": "pausehandling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1015297_3",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/personaplex/failure_many-1-english-1526469_1",
+      "category": "pausehandling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1526469_1",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/personaplex/failure_many-2-english-306657_0",
+      "category": "pausehandling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "306657_0",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/personaplex/failure_one-1-english-1209123_0",
+      "category": "pausehandling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1209123_0",
+      "slot": "failure_one",
+      "slot_label": "Failure · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/personaplex/failure_one-2-english-1304062_2",
+      "category": "pausehandling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1304062_2",
+      "slot": "failure_one",
+      "slot_label": "Failure · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/moshi/success_many-1-english-1486889_4",
+      "category": "pausehandling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1486889_4",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/moshi/success_many-2-english-852088_0",
+      "category": "pausehandling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "852088_0",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/moshi/success_one-1-english-1000945_0",
+      "category": "pausehandling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1000945_0",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/moshi/success_one-2-english-1071043_0",
+      "category": "pausehandling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1071043_0",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/moshi/failure_many-1-english-497299_0",
+      "category": "pausehandling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "497299_0",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/moshi/failure_many-2-english-425009_1",
+      "category": "pausehandling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "425009_1",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/moshi/failure_one-1-english-1015297_3",
+      "category": "pausehandling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1015297_3",
+      "slot": "failure_one",
+      "slot_label": "Failure · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/moshi/failure_one-2-english-1034212_0",
+      "category": "pausehandling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1034212_0",
+      "slot": "failure_one",
+      "slot_label": "Failure · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/hum1/success_many-1-hindi-1796248_1",
+      "category": "pausehandling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1796248_1",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/hum1/success_many-2-hindi-644412_1",
+      "category": "pausehandling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "644412_1",
+      "slot": "success_many",
+      "slot_label": "Success · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/hum1/success_one-1-hindi-1001714_0",
+      "category": "pausehandling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1001714_0",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/hum1/success_one-2-hindi-1005446_2",
+      "category": "pausehandling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1005446_2",
+      "slot": "success_one",
+      "slot_label": "Success · one pause",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/hum1/failure_many-1-hindi-340592_0",
+      "category": "pausehandling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "340592_0",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/hum1/failure_many-2-hindi-1802915_1",
+      "category": "pausehandling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1802915_1",
+      "slot": "failure_many",
+      "slot_label": "Failure · many pauses",
+      "rank": 2
+    },
+    {
+      "id": "pausehandling/hum1/failure_one-1-hindi-1014612_1",
+      "category": "pausehandling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1014612_1",
+      "slot": "failure_one",
+      "slot_label": "Failure · one pause",
+      "rank": 1
+    },
+    {
+      "id": "pausehandling/hum1/failure_one-2-hindi-1043358_0",
+      "category": "pausehandling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1043358_0",
+      "slot": "failure_one",
+      "slot_label": "Failure · one pause",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/gptlive/success_high-1-english-624708_0",
+      "category": "turntaking",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "624708_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/gptlive/success_high-2-bengali-35428_0",
+      "category": "turntaking",
+      "model": "gptlive",
+      "language": "bengali",
+      "sample": "35428_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/gptlive/success_low-1-bengali-102261_0",
+      "category": "turntaking",
+      "model": "gptlive",
+      "language": "bengali",
+      "sample": "102261_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/gptlive/success_low-2-english-1025724_0",
+      "category": "turntaking",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "1025724_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/gptlive/failure-1-english-1120351_0",
+      "category": "turntaking",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "1120351_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/gptlive/failure-2-hindi-1793872_0",
+      "category": "turntaking",
+      "model": "gptlive",
+      "language": "hindi",
+      "sample": "1793872_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/xai/success_high-1-hindi-1892852_0",
+      "category": "turntaking",
+      "model": "xai",
+      "language": "hindi",
+      "sample": "1892852_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/xai/success_high-2-hindi-718238_0",
+      "category": "turntaking",
+      "model": "xai",
+      "language": "hindi",
+      "sample": "718238_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/xai/success_low-1-english-1290349_0",
+      "category": "turntaking",
+      "model": "xai",
+      "language": "english",
+      "sample": "1290349_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/xai/success_low-2-hindi-1796958_0",
+      "category": "turntaking",
+      "model": "xai",
+      "language": "hindi",
+      "sample": "1796958_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/xai/failure-1-bengali-413956_0",
+      "category": "turntaking",
+      "model": "xai",
+      "language": "bengali",
+      "sample": "413956_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/xai/failure-2-hindi-1162836_0",
+      "category": "turntaking",
+      "model": "xai",
+      "language": "hindi",
+      "sample": "1162836_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/gemini38live/success_high-1-english-735620_0",
+      "category": "turntaking",
+      "model": "gemini38live",
+      "language": "english",
+      "sample": "735620_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/gemini38live/success_high-2-hindi-1870840_0",
+      "category": "turntaking",
+      "model": "gemini38live",
+      "language": "hindi",
+      "sample": "1870840_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/gemini38live/success_low-1-gujarati-236638_0",
+      "category": "turntaking",
+      "model": "gemini38live",
+      "language": "gujarati",
+      "sample": "236638_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/gemini38live/success_low-2-hindi-1878361_0",
+      "category": "turntaking",
+      "model": "gemini38live",
+      "language": "hindi",
+      "sample": "1878361_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/gemini38live/failure-1-hindi-393463_0",
+      "category": "turntaking",
+      "model": "gemini38live",
+      "language": "hindi",
+      "sample": "393463_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/gemini38live/failure-2-telugu-382171_0",
+      "category": "turntaking",
+      "model": "gemini38live",
+      "language": "telugu",
+      "sample": "382171_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/gemini31flash/success_high-1-gujarati-764813_0",
+      "category": "turntaking",
+      "model": "gemini31flash",
+      "language": "gujarati",
+      "sample": "764813_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/gemini31flash/success_high-2-hindi-1077495_0",
+      "category": "turntaking",
+      "model": "gemini31flash",
+      "language": "hindi",
+      "sample": "1077495_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/gemini31flash/success_low-1-gujarati-236638_0",
+      "category": "turntaking",
+      "model": "gemini31flash",
+      "language": "gujarati",
+      "sample": "236638_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/gemini31flash/success_low-2-malayalam-3020615_0",
+      "category": "turntaking",
+      "model": "gemini31flash",
+      "language": "malayalam",
+      "sample": "3020615_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/gemini31flash/failure-1-bengali-949370_0",
+      "category": "turntaking",
+      "model": "gemini31flash",
+      "language": "bengali",
+      "sample": "949370_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/gemini31flash/failure-2-english-624708_0",
+      "category": "turntaking",
+      "model": "gemini31flash",
+      "language": "english",
+      "sample": "624708_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/personaplex/success_high-1-english-209633_0",
+      "category": "turntaking",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "209633_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/personaplex/success_high-2-english-297185_0",
+      "category": "turntaking",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "297185_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/personaplex/success_low-1-english-1078326_0",
+      "category": "turntaking",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1078326_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/personaplex/success_low-2-english-1120351_0",
+      "category": "turntaking",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1120351_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/moshi/success_high-1-english-297022_0",
+      "category": "turntaking",
+      "model": "moshi",
+      "language": "english",
+      "sample": "297022_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/moshi/success_high-2-english-279955_4",
+      "category": "turntaking",
+      "model": "moshi",
+      "language": "english",
+      "sample": "279955_4",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/moshi/success_low-1-english-102759_0",
+      "category": "turntaking",
+      "model": "moshi",
+      "language": "english",
+      "sample": "102759_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/moshi/success_low-2-english-1078326_0",
+      "category": "turntaking",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1078326_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/moshi/failure-1-english-1025724_0",
+      "category": "turntaking",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1025724_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/moshi/failure-2-english-1026780_0",
+      "category": "turntaking",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1026780_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/hum1/success_high-1-hindi-838394_0",
+      "category": "turntaking",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "838394_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/hum1/success_high-2-hindi-566798_0",
+      "category": "turntaking",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "566798_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/hum1/success_low-1-hindi-1014439_0",
+      "category": "turntaking",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1014439_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/hum1/success_low-2-hindi-1077495_0",
+      "category": "turntaking",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1077495_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest latency",
+      "rank": 2
+    },
+    {
+      "id": "turntaking/hum1/failure-1-hindi-1814102_0",
+      "category": "turntaking",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1814102_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "turntaking/hum1/failure-2-hindi-1893102_0",
+      "category": "turntaking",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1893102_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/gptlive/success_low-1-telugu-1031664_5",
+      "category": "backchanneling",
+      "model": "gptlive",
+      "language": "telugu",
+      "sample": "1031664_5",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/gptlive/success_low-2-english-25520_0",
+      "category": "backchanneling",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "25520_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/gptlive/success_high-1-bengali-119913_0",
+      "category": "backchanneling",
+      "model": "gptlive",
+      "language": "bengali",
+      "sample": "119913_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/gptlive/success_high-2-english-1000945_1",
+      "category": "backchanneling",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "1000945_1",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/gptlive/failure-1-bengali-176787_1",
+      "category": "backchanneling",
+      "model": "gptlive",
+      "language": "bengali",
+      "sample": "176787_1",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/gptlive/failure-2-english-1026780_0",
+      "category": "backchanneling",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "1026780_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/xai/success_low-1-english-1000945_0",
+      "category": "backchanneling",
+      "model": "xai",
+      "language": "english",
+      "sample": "1000945_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/xai/success_low-2-hindi-332705_1",
+      "category": "backchanneling",
+      "model": "xai",
+      "language": "hindi",
+      "sample": "332705_1",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/xai/success_high-1-bengali-217138_0",
+      "category": "backchanneling",
+      "model": "xai",
+      "language": "bengali",
+      "sample": "217138_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/xai/success_high-2-english-1071043_1",
+      "category": "backchanneling",
+      "model": "xai",
+      "language": "english",
+      "sample": "1071043_1",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/xai/failure-1-bengali-143206_1",
+      "category": "backchanneling",
+      "model": "xai",
+      "language": "bengali",
+      "sample": "143206_1",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/xai/failure-2-english-1258503_0",
+      "category": "backchanneling",
+      "model": "xai",
+      "language": "english",
+      "sample": "1258503_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/gemini38live/success_low-1-bengali-28753_2",
+      "category": "backchanneling",
+      "model": "gemini38live",
+      "language": "bengali",
+      "sample": "28753_2",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/gemini38live/success_low-2-hindi-185424_2",
+      "category": "backchanneling",
+      "model": "gemini38live",
+      "language": "hindi",
+      "sample": "185424_2",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/gemini38live/success_high-1-bengali-119913_0",
+      "category": "backchanneling",
+      "model": "gemini38live",
+      "language": "bengali",
+      "sample": "119913_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/gemini38live/success_high-2-english-1023424_3",
+      "category": "backchanneling",
+      "model": "gemini38live",
+      "language": "english",
+      "sample": "1023424_3",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/gemini38live/failure-1-english-1258503_0",
+      "category": "backchanneling",
+      "model": "gemini38live",
+      "language": "english",
+      "sample": "1258503_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/gemini38live/failure-2-gujarati-634348_11",
+      "category": "backchanneling",
+      "model": "gemini38live",
+      "language": "gujarati",
+      "sample": "634348_11",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/gemini31flash/success_low-1-english-309174_3",
+      "category": "backchanneling",
+      "model": "gemini31flash",
+      "language": "english",
+      "sample": "309174_3",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/gemini31flash/success_low-2-marathi-658537_1",
+      "category": "backchanneling",
+      "model": "gemini31flash",
+      "language": "marathi",
+      "sample": "658537_1",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/gemini31flash/success_high-1-bengali-144123_3",
+      "category": "backchanneling",
+      "model": "gemini31flash",
+      "language": "bengali",
+      "sample": "144123_3",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/gemini31flash/success_high-2-english-1034212_0",
+      "category": "backchanneling",
+      "model": "gemini31flash",
+      "language": "english",
+      "sample": "1034212_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/gemini31flash/failure-1-english-1034212_1",
+      "category": "backchanneling",
+      "model": "gemini31flash",
+      "language": "english",
+      "sample": "1034212_1",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/gemini31flash/failure-2-malayalam-3010354_2",
+      "category": "backchanneling",
+      "model": "gemini31flash",
+      "language": "malayalam",
+      "sample": "3010354_2",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/personaplex/success_low-1-english-202384_6",
+      "category": "backchanneling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "202384_6",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/personaplex/success_low-2-english-309174_4",
+      "category": "backchanneling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "309174_4",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/personaplex/success_high-1-english-1039526_0",
+      "category": "backchanneling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1039526_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/personaplex/success_high-2-english-1051136_5",
+      "category": "backchanneling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1051136_5",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/personaplex/failure-1-english-1023424_3",
+      "category": "backchanneling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1023424_3",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/personaplex/failure-2-english-1026780_0",
+      "category": "backchanneling",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1026780_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/moshi/success_low-1-english-1191725_0",
+      "category": "backchanneling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1191725_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/moshi/success_low-2-english-108652_0",
+      "category": "backchanneling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "108652_0",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/moshi/success_high-1-english-1088068_3",
+      "category": "backchanneling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1088068_3",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/moshi/success_high-2-english-1256772_2",
+      "category": "backchanneling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1256772_2",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/moshi/failure-1-english-1000945_1",
+      "category": "backchanneling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1000945_1",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/moshi/failure-2-english-1034212_0",
+      "category": "backchanneling",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1034212_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/hum1/success_low-1-hindi-185424_4",
+      "category": "backchanneling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "185424_4",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/hum1/success_low-2-hindi-43045_5",
+      "category": "backchanneling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "43045_5",
+      "slot": "success_low",
+      "slot_label": "Success · lowest JSD",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/hum1/success_high-1-hindi-177408_0",
+      "category": "backchanneling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "177408_0",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/hum1/success_high-2-hindi-178425_1",
+      "category": "backchanneling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "178425_1",
+      "slot": "success_high",
+      "slot_label": "Success · highest JSD below 1",
+      "rank": 2
+    },
+    {
+      "id": "backchanneling/hum1/failure-1-hindi-174945_0",
+      "category": "backchanneling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "174945_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "backchanneling/hum1/failure-2-hindi-175394_0",
+      "category": "backchanneling",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "175394_0",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/gptlive/success_high-1-bengali-1",
+      "category": "interruptions",
+      "model": "gptlive",
+      "language": "bengali",
+      "sample": "1",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/gptlive/success_high-2-english-1",
+      "category": "interruptions",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "1",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/gptlive/success_low-1-bengali-22",
+      "category": "interruptions",
+      "model": "gptlive",
+      "language": "bengali",
+      "sample": "22",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/gptlive/success_low-2-gujarati-128",
+      "category": "interruptions",
+      "model": "gptlive",
+      "language": "gujarati",
+      "sample": "128",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/gptlive/failure-1-english-261",
+      "category": "interruptions",
+      "model": "gptlive",
+      "language": "english",
+      "sample": "261",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/xai/success_high-1-bengali-1",
+      "category": "interruptions",
+      "model": "xai",
+      "language": "bengali",
+      "sample": "1",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/xai/success_high-2-english-1",
+      "category": "interruptions",
+      "model": "xai",
+      "language": "english",
+      "sample": "1",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/xai/success_low-1-bengali-255",
+      "category": "interruptions",
+      "model": "xai",
+      "language": "bengali",
+      "sample": "255",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/xai/success_low-2-english-147",
+      "category": "interruptions",
+      "model": "xai",
+      "language": "english",
+      "sample": "147",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/xai/failure-1-bengali-261",
+      "category": "interruptions",
+      "model": "xai",
+      "language": "bengali",
+      "sample": "261",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/xai/failure-2-hindi-282",
+      "category": "interruptions",
+      "model": "xai",
+      "language": "hindi",
+      "sample": "282",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/gemini38live/success_high-1-bengali-1",
+      "category": "interruptions",
+      "model": "gemini38live",
+      "language": "bengali",
+      "sample": "1",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/gemini38live/success_high-2-english-1",
+      "category": "interruptions",
+      "model": "gemini38live",
+      "language": "english",
+      "sample": "1",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/gemini38live/success_low-1-bengali-239",
+      "category": "interruptions",
+      "model": "gemini38live",
+      "language": "bengali",
+      "sample": "239",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/gemini38live/success_low-2-hindi-4",
+      "category": "interruptions",
+      "model": "gemini38live",
+      "language": "hindi",
+      "sample": "4",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/gemini38live/failure-1-tamil-27",
+      "category": "interruptions",
+      "model": "gemini38live",
+      "language": "tamil",
+      "sample": "27",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/gemini31flash/success_high-1-bengali-1",
+      "category": "interruptions",
+      "model": "gemini31flash",
+      "language": "bengali",
+      "sample": "1",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/gemini31flash/success_high-2-english-1",
+      "category": "interruptions",
+      "model": "gemini31flash",
+      "language": "english",
+      "sample": "1",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/gemini31flash/success_low-1-gujarati-117",
+      "category": "interruptions",
+      "model": "gemini31flash",
+      "language": "gujarati",
+      "sample": "117",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/gemini31flash/success_low-2-hindi-4",
+      "category": "interruptions",
+      "model": "gemini31flash",
+      "language": "hindi",
+      "sample": "4",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/gemini31flash/failure-1-bengali-218",
+      "category": "interruptions",
+      "model": "gemini31flash",
+      "language": "bengali",
+      "sample": "218",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/gemini31flash/failure-2-bengali-225",
+      "category": "interruptions",
+      "model": "gemini31flash",
+      "language": "bengali",
+      "sample": "225",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/personaplex/success_high-1-english-1",
+      "category": "interruptions",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "1",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/personaplex/success_high-2-english-10",
+      "category": "interruptions",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "10",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/personaplex/success_low-1-english-215",
+      "category": "interruptions",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "215",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/personaplex/success_low-2-english-251",
+      "category": "interruptions",
+      "model": "personaplex",
+      "language": "english",
+      "sample": "251",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/moshi/success_high-1-english-100",
+      "category": "interruptions",
+      "model": "moshi",
+      "language": "english",
+      "sample": "100",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/moshi/success_high-2-english-101",
+      "category": "interruptions",
+      "model": "moshi",
+      "language": "english",
+      "sample": "101",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/moshi/success_low-1-english-1",
+      "category": "interruptions",
+      "model": "moshi",
+      "language": "english",
+      "sample": "1",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/moshi/success_low-2-english-10",
+      "category": "interruptions",
+      "model": "moshi",
+      "language": "english",
+      "sample": "10",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/moshi/failure-1-english-121",
+      "category": "interruptions",
+      "model": "moshi",
+      "language": "english",
+      "sample": "121",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/moshi/failure-2-english-21",
+      "category": "interruptions",
+      "model": "moshi",
+      "language": "english",
+      "sample": "21",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/hum1/success_high-1-hindi-123",
+      "category": "interruptions",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "123",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/hum1/success_high-2-hindi-129",
+      "category": "interruptions",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "129",
+      "slot": "success_high",
+      "slot_label": "Success · high rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/hum1/success_low-1-hindi-1",
+      "category": "interruptions",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "1",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/hum1/success_low-2-hindi-10",
+      "category": "interruptions",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "10",
+      "slot": "success_low",
+      "slot_label": "Success · low rating",
+      "rank": 2
+    },
+    {
+      "id": "interruptions/hum1/failure-1-hindi-102",
+      "category": "interruptions",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "102",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 1
+    },
+    {
+      "id": "interruptions/hum1/failure-2-hindi-132",
+      "category": "interruptions",
+      "model": "hum1",
+      "language": "hindi",
+      "sample": "132",
+      "slot": "failure",
+      "slot_label": "Failure",
+      "rank": 2
+    }
+  ]
+}

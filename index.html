@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#092b37">
+  <meta name="description" content="IndicFDB benchmarks full-duplex voice agents across ten Indian languages and four conversational behaviors.">
+  <title>IndicFDB · Benchmarking Full-Duplex Voice Agents across Indian Languages</title>
+  <style>
+    :root { --navy:#092b37; --deep:#061e28; --teal:#0d766d; --mint:#d9efe7; --cream:#f6f2e9; --ink:#17313a; --muted:#5d7073; --line:#d6dedb; --gold:#eebf6b; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--cream); color:var(--ink); font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:inherit; }
+    a:focus-visible,button:focus-visible { outline:3px solid var(--gold); outline-offset:3px; }
+    .wrap { width:min(1180px,calc(100% - 48px)); margin:auto; }
+    .topbar { background:var(--deep); color:white; border-bottom:1px solid #ffffff22; }
+    .topbar .wrap { display:flex; align-items:center; justify-content:space-between; min-height:70px; gap:20px; }
+    .brand { text-decoration:none; font-weight:850; letter-spacing:.13em; font-size:15px; }
+    .topnav { display:flex; gap:24px; align-items:center; font-size:13px; font-weight:650; }
+    .topnav a { text-decoration:none; color:#d6e5e1; }
+    .topnav a:hover { color:white; }
+    .hero { position:relative; overflow:hidden; color:white; background:radial-gradient(circle at 80% 20%,#155c62 0,#0c3d49 27%,transparent 55%),linear-gradient(125deg,var(--deep),var(--navy) 55%,#0c4d52); }
+    .hero::after { content:""; position:absolute; right:-6%; top:-30%; width:54%; aspect-ratio:1; border:1px solid #83c7ba45; border-radius:50%; box-shadow:0 0 0 75px #83c7ba12,0 0 0 150px #83c7ba0a,0 0 0 230px #83c7ba07; pointer-events:none; }
+    .hero .wrap { position:relative; z-index:1; padding:94px 0 78px; }
+    .eyebrow { color:#91dbca; text-transform:uppercase; letter-spacing:.16em; font-size:12px; font-weight:800; }
+    h1 { font-size:clamp(38px,5.3vw,74px); line-height:1.07; letter-spacing:-.048em; max-width:920px; margin:18px 0 24px; }
+    .hero p { max-width:760px; color:#d5e7e2; font-size:19px; margin:0 0 30px; }
+    .buttons { display:flex; flex-wrap:wrap; gap:12px; }
+    .button { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:46px; padding:10px 17px; border-radius:9px; text-decoration:none; font-weight:750; font-size:14px; transition:transform .15s,background .15s; }
+    .button:hover { transform:translateY(-2px); }
+    .button.primary { background:var(--gold); color:#203037; }
+    .button.outline { border:1px solid #a5d6cc8c; color:white; background:#ffffff0d; }
+    .button.dark { background:var(--navy); color:white; }
+    .affiliations { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:58px; color:#bcd2ce; font-size:13px; }
+    .affiliations strong { color:white; font-size:15px; letter-spacing:.015em; }
+    .affiliations .sep { color:#7ea9a8; }
+    .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:14px; overflow:hidden; margin-top:-1px; box-shadow:0 14px 45px #112f2c13; }
+    .stat { background:white; padding:24px 26px; }
+    .stat b { display:block; font-size:32px; line-height:1; letter-spacing:-.035em; color:var(--teal); }
+    .stat span { display:block; margin-top:7px; color:var(--muted); font-size:13px; }
+    section.content { padding:74px 0 0; }
+    .section-head { max-width:800px; margin-bottom:28px; }
+    .section-kicker { color:var(--teal); text-transform:uppercase; letter-spacing:.12em; font-size:12px; font-weight:850; }
+    h2 { font-size:clamp(30px,3.5vw,43px); line-height:1.14; letter-spacing:-.035em; margin:7px 0 12px; }
+    .section-head p { color:var(--muted); margin:0; font-size:17px; }
+    .categories { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+    .category,.resource { background:white; border:1px solid var(--line); border-radius:14px; padding:24px; box-shadow:0 8px 25px #112f2c08; }
+    .category .number { font-size:12px; color:var(--teal); font-weight:850; letter-spacing:.1em; }
+    .category h3 { font-size:20px; margin:12px 0 8px; letter-spacing:-.02em; }
+    .category p { margin:0; color:var(--muted); font-size:14px; }
+    .category .quantity { display:block; margin-top:18px; color:var(--teal); font-weight:850; font-size:15px; }
+    .demo-frame { background:white; border:1px solid var(--line); border-radius:16px; overflow:hidden; box-shadow:0 20px 45px #112f2c14; }
+    .demo-bar { display:flex; align-items:center; justify-content:space-between; gap:14px; padding:15px 20px; background:var(--navy); color:white; }
+    .demo-bar strong { font-size:14px; }
+    .demo-bar a { color:#a8e7d5; font-size:13px; text-decoration:none; font-weight:750; white-space:nowrap; }
+    iframe { display:block; width:100%; height:760px; border:0; background:#f3f0e8; }
+    .resource-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .resource { display:flex; flex-direction:column; }
+    .resource .icon { display:grid; place-items:center; width:42px; height:42px; border-radius:10px; background:var(--mint); color:var(--teal); font-weight:900; font-size:18px; }
+    .resource h3 { font-size:20px; margin:18px 0 7px; }
+    .resource p { color:var(--muted); font-size:14px; margin:0 0 22px; flex:1; }
+    .resource a { align-self:start; color:var(--teal); font-size:14px; font-weight:800; text-decoration:none; border-bottom:1px solid currentColor; }
+    .method { background:var(--navy); color:white; border-radius:18px; padding:38px 42px; display:grid; grid-template-columns:1fr 1fr; gap:32px; }
+    .method h2 { margin-top:0; }
+    .method p { margin:0; color:#d1e5df; }
+    .method ol { margin:0; padding-left:25px; color:#d1e5df; }
+    .method li { padding:0 0 13px 6px; }
+    .method li:last-child { padding-bottom:0; }
+    .method strong { color:white; }
+    .authors { background:white; border:1px solid var(--line); border-radius:16px; padding:28px 32px; }
+    .authors p { margin:0; font-size:16px; line-height:2; }
+    footer { margin-top:78px; background:var(--deep); color:#b7d0ca; padding:27px 0; font-size:13px; }
+    footer .wrap { display:flex; justify-content:space-between; gap:15px; }
+    footer a { color:#b7d0ca; }
+    @media(max-width:900px) { .categories { grid-template-columns:repeat(2,1fr); } .resource-grid { grid-template-columns:1fr 1fr; } .method { grid-template-columns:1fr; } }
+    @media(max-width:620px) { .wrap { width:min(100% - 30px,1180px); } .topbar .wrap { min-height:64px; } .topnav { gap:12px; font-size:12px; } .topnav a:nth-child(2) { display:none; } .hero .wrap { padding:64px 0 55px; } .hero p { font-size:17px; } .stats { grid-template-columns:repeat(2,1fr); } .stat { padding:18px; } .categories,.resource-grid { grid-template-columns:1fr; } section.content { padding-top:56px; } iframe { height:660px; } .method { padding:28px; } footer .wrap { display:block; } }
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="wrap"><a class="brand" href="#top">INDICFDB</a><nav class="topnav" aria-label="Main navigation"><a href="#benchmark">Benchmark</a><a href="#explorer">Explorer</a><a href="#resources">Resources</a><a href="#authors">Authors</a></nav></div></div>
+  <header class="hero" id="top"><div class="wrap"><div class="eyebrow">Multilingual full-duplex evaluation</div><h1>INDICFDB: BENCHMARKING FULL-DUPLEX VOICE AGENTS ACROSS INDIAN LANGUAGES</h1><p>A benchmark for how voice agents handle the flow of a real conversation: waiting through pauses, taking turns, backchanneling, and responding when a user interrupts.</p><div class="buttons"><a class="button primary" href="#explorer">Explore model outputs <span aria-hidden="true">↗</span></a><a class="button outline" href="paper.pdf" target="_blank" rel="noopener">Read the paper (PDF)</a><a class="button outline" href="https://github.com/3bk47sbkf7b/indicfdb" target="_blank" rel="noopener">View GitHub repository</a></div><div class="affiliations"><span>Research by</span><strong>NVIDIA</strong><span class="sep">×</span><strong>VoiceArena</strong></div></div></header>
+  <main>
+    <div class="wrap"><div class="stats" aria-label="Benchmark at a glance"><div class="stat"><b>10</b><span>languages spoken in India</span></div><div class="stat"><b>12,350</b><span>benchmark samples</span></div><div class="stat"><b>4</b><span>conversational behaviors</span></div><div class="stat"><b>7</b><span>voice agents evaluated</span></div></div></div>
+    <section class="content" id="benchmark"><div class="wrap"><div class="section-head"><div class="section-kicker">The benchmark</div><h2>Conversation is more than answering.</h2><p>IndicFDB extends full-duplex evaluation to Indian English, Hindi, Bengali, Punjabi, Gujarati, Marathi, Kannada, Telugu, Tamil, and Malayalam. Every language has 1,235 samples spanning the same four behaviors.</p></div><div class="categories"><article class="category"><div class="number">01 / TIMING</div><h3>Pause handling</h3><p>Does the agent wait while the user pauses mid-turn?</p><span class="quantity">3,150 samples</span></article><article class="category"><div class="number">02 / TIMING</div><h3>Turn taking</h3><p>Does the agent respond after the user finishes, without taking over early?</p><span class="quantity">2,350 samples</span></article><article class="category"><div class="number">03 / INTERACTION</div><h3>Backchanneling</h3><p>Does the agent give short acknowledgments at useful moments?</p><span class="quantity">3,850 samples</span></article><article class="category"><div class="number">04 / RESPONSE</div><h3>User interruption</h3><p>Does the agent respond to a new request when the user interrupts?</p><span class="quantity">3,000 samples</span></article></div></div></section>
+    <section class="content" id="explorer"><div class="wrap"><div class="section-head"><div class="section-kicker">Listen and inspect</div><h2>Explore model behavior.</h2><p>Browse selected successes and failures for each model. Compare aligned user input, human reference, and agent output, then inspect event timing and interruption judgments.</p></div><div class="demo-frame"><div class="demo-bar"><strong>Interactive model output explorer</strong><a href="dashboard/index.html" target="_blank" rel="noopener">Open full dashboard ↗</a></div><iframe src="dashboard/index.html" title="IndicFDB model output dashboard" loading="lazy"></iframe></div></div></section>
+    <section class="content"><div class="wrap"><div class="method"><div><div class="eyebrow">How it works</div><h2>Built for multilingual speech.</h2><p>Natural pause, turn-taking, and backchannel samples are mined from channel-separated conversations. User interruption samples are constructed and validated across languages. A VAD-based evaluation pipeline measures conversational timing without requiring word-level alignment.</p></div><ol><li><strong>Mine conversational events</strong> with multi-threshold voice activity detection and human review.</li><li><strong>Stream the input</strong> to a voice agent and capture its response audio.</li><li><strong>Evaluate timing</strong> with language-independent heuristics, then transcribe, translate, and rate interruption responses with open-weight models.</li></ol></div></div></section>
+    <section class="content" id="resources"><div class="wrap"><div class="section-head"><div class="section-kicker">Project resources</div><h2>Read the paper. Explore the code.</h2><p>The repository contains the evaluation and corpus-mining scripts used for this project, plus the interactive dashboard.</p></div><div class="resource-grid"><article class="resource"><div class="icon" aria-hidden="true">PDF</div><h3>Research paper</h3><p>Methods, benchmark construction, multilingual evaluation, and results.</p><a href="paper.pdf" target="_blank" rel="noopener">Open paper PDF ↗</a></article><article class="resource"><div class="icon" aria-hidden="true">{ }</div><h3>Evaluation scripts</h3><p>Score the four behaviors and run transcription, translation, semantic judging, and summary generation.</p><a href="https://github.com/3bk47sbkf7b/indicfdb/tree/main/scripts" target="_blank" rel="noopener">Browse evaluation code ↗</a></article><article class="resource"><div class="icon" aria-hidden="true">&lt;/&gt;</div><h3>Mining scripts</h3><p>Generate confidence-aware VAD and mine pause, turn-taking, and backchannel clips.</p><a href="https://github.com/3bk47sbkf7b/indicfdb/tree/main/mining" target="_blank" rel="noopener">Browse mining code ↗</a></article></div></div></section>
+    <section class="content" id="authors"><div class="wrap"><div class="section-head"><div class="section-kicker">Authors</div><h2>NVIDIA × VoiceArena</h2></div><div class="authors"><p>Rajarshi Roy · Shobhit Banga · Jonathan Raiman · Supriya Paul · Bhaskar Singh · Manmeet Kaur · Sagar Jain · Hanuman Sidh · Pranav Sharma · Aditya Singh · Aaditya Pareek · Manas Dhir · Adi Margolin · Niket Agarwal · Bryan Catanzaro</p></div></div></section>
+  </main>
+  <footer><div class="wrap"><span>© 2026 IndicFDB · NVIDIA and VoiceArena</span><span><a href="paper.pdf">Paper</a> · <a href="dashboard/index.html">Dashboard</a> · <a href="https://github.com/3bk47sbkf7b/indicfdb">GitHub</a></span></div></footer>
+</body>
+</html>
